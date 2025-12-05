@@ -1,0 +1,30 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+.python-version
+
+# Tooling / IDE metadata
+.vscode/
+.idea/
+.mypy_cache/
+.pytest_cache/
+coverage.xml
+htmlcov/
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+
+# Generated reports and graphs
+output/graphs/*
+!output/graphs/.gitkeep
+output/reports/*.txt
+!output/reports/.gitkeep
+
