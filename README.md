@@ -1,10 +1,3 @@
-# Stock Market Data Analysis
-
-Console-based solution for the `Test-Z_251125_182459.pdf` assessment. The
-application ingests ten years of NSE/BSE historical prices for ten companies,
-computes yearly min/max ranges, flags ±5 % daily moves (with weekend fallbacks),
-and plots day-over-day price deltas.
-
 ## Dataset
 
 - Folder: `data/`
@@ -78,9 +71,3 @@ python -m venv venv
 └─ README.md
 ```
 
-## Notes
-
-- The console output avoids non-ASCII characters so it runs cleanly on Windows
-  terminals using CP1252.
-- To add more companies, drop additional CSV/Excel files into `data/`; the
-  script auto-discovers any `.csv` or `.xlsx` file in that folder.
